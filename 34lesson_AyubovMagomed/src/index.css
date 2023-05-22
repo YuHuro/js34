@@ -1,0 +1,75 @@
+
+
+.App {
+  text-align: center;
+  margin: auto;
+  width: 600px;
+  color: aliceblue;
+}
+
+.App .item-todo {
+  padding: 14px;
+  width: 500px;
+  margin: 0 auto;
+  text-align: left;
+  margin-top: 15px;
+  border: none;
+  cursor: pointer;
+}
+
+.App form{
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  max-width: 500px;
+}
+
+.App input{
+  padding: 14px 32px 14px 16px;
+  border: none;
+  outline: none;
+  background: transparent;
+  font-size: 18px;
+}
+
+.App button{
+  border: none;
+  border-radius: 100px;
+  font-size: 32px;
+  cursor: pointer;
+  outline: none;
+  background-color: transparent;
+  text-transform: capitalize;
+  color: #B4B4B4;
+}
+
+.strike {
+  text-decoration: line-through;
+  color: rgb(99, 245, 59);
+}
+
+.header-length{
+  font-family: Montserrat, sans-serif;
+  margin-top: 56px;
+  color: #64C4ED;
+  font-size: 32px;
+}
+
+.item-todo{
+  font-family: Lato, sans-serif;
+  display: flex;
+  justify-content: space-between;
+  color: black;
+}
+
+.item-text{
+  font-size: 20px;
+}
+
+.item-delete{
+  border: 1px solid;
+  background-color: red;
+  color: white;
+  padding: 0px 7px 4px 7px;
+  border-radius: 100px;
+}
